@@ -141,7 +141,8 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 nav a {
@@ -216,5 +217,11 @@ footer .social-links a:hover {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+}
+
+@media (min-width: 500px) {
+  .navbar-brand {
+    margin-right: 420px;
   }
 }
