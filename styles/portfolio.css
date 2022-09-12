@@ -99,8 +99,8 @@ p {
 }
 
 .btn-branding:hover {
-  background: var(--branding-color);
-  color: white;
+  background: #fff;
+  color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
 }
